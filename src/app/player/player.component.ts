@@ -35,7 +35,7 @@ export class PlayerComponent implements OnInit {
     });
 
     this.assets
-      .loadImages([ { path: '/assets/img/player.png' } ])
+      .loadImages([ { path: '/ngine-tutorial/demo/assets/img/player.png' } ])
       .subscribe(([playerImage]) => {
         this.style.image = playerImage.style;
         const size = this.viewport.relativeY(this.RELATIVE_SIZE) /

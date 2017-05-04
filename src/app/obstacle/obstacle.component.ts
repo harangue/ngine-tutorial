@@ -11,12 +11,12 @@ export enum ObstacleColor {
 };
 
 const OBSTACLE_COLOR_TO_PATH = {
-  [ObstacleColor.RED]: '/assets/img/obstacle_3.png',
-  [ObstacleColor.ORANGE]: '/assets/img/obstacle_5.png',
-  [ObstacleColor.YELLOW]: '/assets/img/obstacle_4.png',
-  [ObstacleColor.GREEN]: '/assets/img/obstacle_1.png',
-  [ObstacleColor.BLUE]: '/assets/img/obstacle_2.png',
-  [ObstacleColor.PURPLE]: '/assets/img/obstacle_6.png',
+  [ObstacleColor.RED]: '/ngine-tutorial/demo/assets/img/obstacle_3.png',
+  [ObstacleColor.ORANGE]: '/ngine-tutorial/demo/assets/img/obstacle_5.png',
+  [ObstacleColor.YELLOW]: '/ngine-tutorial/demo/assets/img/obstacle_4.png',
+  [ObstacleColor.GREEN]: '/ngine-tutorial/demo/assets/img/obstacle_1.png',
+  [ObstacleColor.BLUE]: '/ngine-tutorial/demo/assets/img/obstacle_2.png',
+  [ObstacleColor.PURPLE]: '/ngine-tutorial/demo/assets/img/obstacle_6.png',
 };
 
 @Component({
