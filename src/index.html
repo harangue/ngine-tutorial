@@ -7,8 +7,40 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #ui {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 48px;
+      color: white;
+      font-family: 'PT Mono', monospace;
+      background-color: rgba(0,0,0,0.75);
+      padding: 1rem;
+      z-index: 50;
+    }
+
+    #game-over {
+      font-family: 'PT Mono', monospace;
+      font-size: 72px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 50;
+      color: white;
+      display: none;
+      background-color: rgba(0,0,0,0.75);
+      padding: 2rem;
+    }
+  </style>
 </head>
 <body>
   <app-root>Loading...</app-root>
+  <div id="ui">0</div>
+  <div id="game-over">GAME OVER</div>
 </body>
 </html>

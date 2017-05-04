@@ -12,6 +12,9 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "rxjs/*": ["./node_modules/rxjs/*"]
+    },
     "lib": [
       "es2016",
       "dom"
