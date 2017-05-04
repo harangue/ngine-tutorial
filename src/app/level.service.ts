@@ -124,9 +124,8 @@ export class LevelService {
       });
 
     this.position$
-      // .filter((x) => x % 10 === 0)
       .subscribe((score) => {
-        document.getElementById('ui').innerText = score;
+        document.getElementById('score').innerText = score;
       });
 
     this.gameOver$
