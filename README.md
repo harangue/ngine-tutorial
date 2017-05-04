@@ -1093,8 +1093,11 @@ Whew. That was a lot of work. We're not done yet, however. Let's update `Obstacl
         }
       });
   }
-Notice the addition of .map to pull the appropriate top or bottom Vector from our Vector pair.
+```
 
+Notice the addition of `.map` to pull the appropriate top or bottom `Vector` from our `Vector` pair.
+
+```typescript
   private genObstacle (position: Vector) {
     const ref = this.obstaclesRef.createComponent(this.obstacleFactory);
     ref.instance.setType(this.getRandomObstacleColor());
